@@ -22,7 +22,7 @@ public class Seller {
 	@OneToMany(mappedBy = "seller")
 	private List<Sale> sales = new ArrayList<>();
 	
-	private Seller () {
+	public Seller () {
 		
 	}
 
