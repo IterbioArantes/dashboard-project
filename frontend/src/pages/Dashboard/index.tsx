@@ -25,6 +25,7 @@ const Dashboard = () => {
         <div>
           <h2 className="text-primary">All Sales</h2>
         </div>
+
         <DataTable />
       </div>
       <Footer />
